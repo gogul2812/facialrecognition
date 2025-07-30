@@ -35,27 +35,12 @@ This project enables hands-free, automated attendance marking using facial recog
 
 ---
 
-## 🗂️ Project Structure
-face-recognition-attendance-system/
-├── app.py
-├── haarcascade_frontalface_default.xml
-├── static/
-│ ├── faces/
-│ └── face_recognition_model.pkl
-├── Attendance/
-│ └── Attendance-<date>.csv
-├── templates/
-│ └── home.html
-├── README.md
-
----
-
 ## ⚙️ Setup & Installation
 
 1. **Clone this repository:**
     ```
-    git clone https://github.com/your-username/face-recognition-attendance-system.git
-    cd face-recognition-attendance-system
+    git clone https://github.com/gogul2812/facialrecognition.git
+    cd facialrecognition
     ```
 
 2. **(Recommended) Create and activate a virtual environment:**
@@ -99,17 +84,7 @@ face-recognition-attendance-system/
 
 ---
 
-## 🖼️ Screenshots
-
-> Paste screenshots here after running your app: registration form, attendance table before and after, key code section, etc.
-
-| Registration Form | Before Attendance | After Attendance |
-|:-----------------:|:----------------:|:----------------:|
-| (screenshot)      | (screenshot)     | (screenshot)     |
-
----
-
-## 💡 How It Works (In Brief)
+## 💡 How It Works 
 
 - **Registration:** User is registered with name/ID, their face images are captured and stored.
 - **Model Training:** ML model (KNN) is trained on all stored faces.
